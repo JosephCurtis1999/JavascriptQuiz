@@ -1,0 +1,18 @@
+.navbar {
+    width: 100%;
+    display: flex;
+}
+
+.navbar h1{
+    text-align: left;
+}
+
+.navbar__timer h1 {
+    margin-left: 1550px;
+    
+}
+
+.Header {
+    width: 100%;
+    text-align: center;
+}
