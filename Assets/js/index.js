@@ -61,6 +61,7 @@ var countDown = ()=>{
     if(timer === 60)
     {
         clearInterval(interval);
+        next_question.click();
     }
     else {
         timer++;
@@ -82,6 +83,23 @@ var loadData = ()=>{
 nextbtn.addEventListener("click" , ()=>{
     Choices.style.display = "block";
 
-    interval = setInterval()
+    interval = setInterval(countDown, 1000);
+    loadData();
 
 })
+
+choice_que.forEach( (choices,choiceNo) =>{
+    choices.addEventListener("click" , ()=>{
+        choices.classList.add("active");
+
+        if(choiceNo === questions[index].answer)
+        {
+            correct++;
+        }
+        else 
+        {
+            correct += 0;
+        }
+        clearInterval();
+    })
+});   
