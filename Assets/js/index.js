@@ -26,8 +26,16 @@ var questions = [
     }
 ]
 
-var startbtn = document.querySelector(".startbtn button");
-var restartbtn = document.querySelector(".buttons .restart");
-var scorebtn = document.querySelector(".buttons .score");
-var timer = document.querySelector(".Timer");
+let start = document.querySelector(".startbtn");
+let retry = document.querySelector(".buttons .restart");
+let score = document.querySelector(".buttons .score");
 
+let Questionbox = document.querySelector(".Questionbox");
+let time = document.querySelector(".Timer");
+
+let questionNo = document.querySelector("QuestionNo")
+let questionText = document.querySelector("questionText");
+
+let choice1 = document.querySelector("#choice1");
+let choice2 = document.querySelector("#choice2");
+let choice3 = document.querySelector("#choice3");
