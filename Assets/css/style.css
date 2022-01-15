@@ -31,9 +31,29 @@ body {
     margin-bottom: 4rem;
 }
 
+.buttons {
+    margin-bottom: 4rem;
+}
+
 .restart, .score {
     width: 10%;
     align-items: center;
     margin-left: 45%;
     cursor: pointer;
+}
+
+.Highscore {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+
+}
+
+.Timer {
+    color: white;
+    margin-bottom: 3rem;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
 }

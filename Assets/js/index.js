@@ -25,3 +25,9 @@ var questions = [
         answer: "const"
     }
 ]
+
+var startbtn = document.querySelector(".startbtn button");
+var restartbtn = document.querySelector(".buttons .restart");
+var scorebtn = document.querySelector(".buttons .score");
+var timer = document.querySelector(".Timer");
+
