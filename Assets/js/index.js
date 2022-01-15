@@ -39,3 +39,19 @@ let questionText = document.querySelector("questionText");
 let choice1 = document.querySelector("#choice1");
 let choice2 = document.querySelector("#choice2");
 let choice3 = document.querySelector("#choice3");
+
+let Highscore = document.querySelector(".Highscore");
+
+let choice_que = document.querySelector(".choice_que");
+
+var index = 0;
+var timer = 0;
+var interval = 0;
+
+let correct = 0;
+
+var userAns = '';
+
+start.addEventListener("click" , ()=>{
+    start.style.display = questions.length;
+})

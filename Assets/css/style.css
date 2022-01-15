@@ -9,51 +9,22 @@
 
 body {
     background-color: blueviolet;
+    display: grid;
+    place-items: center;
+    height: 120vh;
 }
 
-.startbtn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.container {
+    height: auto;
+    width: auto;
 }
 
-.startbtn button {
+#start {
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    font-size: 700;
     cursor: pointer;
-}
-
-.Welcome {
-    width: 100%;
-    text-align: center;
-    color: whitesmoke;
-    font-size: 30px;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-}
-
-.buttons {
-    margin-bottom: 4rem;
-}
-
-.restart, .score {
-    width: 10%;
-    align-items: center;
-    margin-left: 45%;
-    cursor: pointer;
-}
-
-.Highscore {
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-size: 25px;
-
-}
-
-.Timer {
-    color: white;
-    margin-bottom: 3rem;
-    width: 100%;
-    text-align: center;
-    font-size: 25px;
 }
