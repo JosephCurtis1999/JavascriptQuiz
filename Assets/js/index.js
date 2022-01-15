@@ -61,7 +61,7 @@ var countDown = ()=>{
     if(timer === 60)
     {
         clearInterval(interval);
-        next_question.click();
+        next.question.click();
     }
     else {
         timer++;
@@ -80,7 +80,7 @@ var loadData = ()=>{
     timer = 0;
 }
 
-nextbtn.addEventListener("click" , ()=>{
+next.addEventListener("click" , ()=>{
     Choices.style.display = "block";
 
     interval = setInterval(countDown, 1000);
@@ -103,3 +103,29 @@ choice_que.forEach( (choices,choiceNo) =>{
         clearInterval();
     })
 });   
+
+scorebtn.addEventListener('click', function(event) {
+    event.preventDefault()
+    
+    
+    var finalScore = {
+      initials: initials.value,
+      score: JSON.parse(userScore)
+    }
+    
+    localStorage.setItem('intials', JSON.stringify(userScore))
+    renderHighscore()
+    
+    }
+    )
+    
+    function renderHighscore() {
+      var highScores = JSON.parse(localStorage.getItem('finalScore'))
+      if (!highScores) {
+        highScores = [];
+      }
+    
+      console.log(finalScore.initials + finalScore.score)
+      document.appendChild.textContent = finalScore.initials + finalScore.score
+    
+    }
