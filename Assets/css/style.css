@@ -18,10 +18,22 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.startbtn button {
+    cursor: pointer;
+}
+
 .Welcome {
     width: 100%;
     text-align: center;
     color: whitesmoke;
     font-size: 30px;
+    margin-top: 2rem;
     margin-bottom: 4rem;
+}
+
+.restart, .score {
+    width: 10%;
+    align-items: center;
+    margin-left: 45%;
+    cursor: pointer;
 }
