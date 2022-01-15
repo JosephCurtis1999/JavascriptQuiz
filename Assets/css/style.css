@@ -10,6 +10,8 @@
 .Welcome {
     color: whitesmoke;
     font-size: 30px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 body {
     background-color: blueviolet;
@@ -21,7 +23,8 @@ body {
 .container {
     height: auto;
     width: 400px;
-    border: 5px solid white;
+    border: 3px solid white;
+    border-radius: 8px;
 }
 
 #start {
@@ -66,7 +69,8 @@ body {
 .Highscore {
     color: white;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+    font-size: 25px;
 }
 
 .startbtn button {
@@ -78,4 +82,17 @@ body {
 .buttons {
     margin-left: 70px;
     margin-bottom: 1rem;
+}
+
+.questionNo {
+    color: white;
+    font-size: 20px;
+    margin-left: 2rem;
+    
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    line-height: 40px;
 }

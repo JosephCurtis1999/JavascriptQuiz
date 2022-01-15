@@ -55,3 +55,15 @@ var userAns = '';
 start.addEventListener("click" , ()=>{
     start.style.display = "none";
 })
+
+var countDown = ()=>{
+    if(timer === 60)
+    {
+        clearInterval(interval);
+    }
+    else {
+        timer++;
+        console.log(timer);
+    }
+}
+setInterval(countDown,1000);
