@@ -53,5 +53,5 @@ let correct = 0;
 var userAns = '';
 
 start.addEventListener("click" , ()=>{
-    start.style.display = questions.length;
+    start.style.display = "none";
 })
