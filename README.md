@@ -18,12 +18,12 @@ mutliple questions on Javascript fundamentals
 Appearance: the following image shows the website's appearance and functionality
 ![Screenshot 2022-01-15 230714](https://user-images.githubusercontent.com/94229291/149640528-5bf37ff1-210f-42db-a3d0-bbd60e60d1fb.jpg)
 
-The following URL will take you to the deployed page: 
+
 
 
 Usage
 
-The following URL will take you directly to the page: 
+The following URL will take you directly to the page: https://josephcurtis1999.github.io/JavascriptQuiz/
 
 Credits
 
