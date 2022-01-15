@@ -67,3 +67,14 @@ var countDown = ()=>{
     }
 }
 setInterval(countDown,1000);
+
+var loadData = ()=>{
+    questionNo.innerText = index + 1 + ". ";
+    questionText.innerText = questions[index].question;
+    choice1.innerText = questions[index].choice1;
+    choice2.innerText = questions[index].choice2;
+    choice3.innerText = questions[index].choice3;
+
+    timer = 0;
+}
+
