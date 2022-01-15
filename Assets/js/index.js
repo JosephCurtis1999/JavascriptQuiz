@@ -29,6 +29,7 @@ var questions = [
 let start = document.querySelector(".startbtn");
 let retry = document.querySelector(".buttons .restart");
 let score = document.querySelector(".buttons .score");
+let next = document.querySelector(".buttons .next");
 
 let Questionbox = document.querySelector(".Questionbox");
 let time = document.querySelector(".Timer");
@@ -63,7 +64,7 @@ var countDown = ()=>{
     }
     else {
         timer++;
-        console.log(timer);
+        time.innerText = timer;
     }
 }
 setInterval(countDown,1000);
@@ -78,3 +79,9 @@ var loadData = ()=>{
     timer = 0;
 }
 
+nextbtn.addEventListener("click" , ()=>{
+    Choices.style.display = "block";
+
+    interval = setInterval()
+
+})
